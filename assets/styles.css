@@ -199,38 +199,38 @@ h1 {
 
 /* Keyframes for kanan */
 @-webkit-keyframes kanan {
-    0% { -webkit-transform: translateX(20px); }
-    50% { -webkit-transform: translateX(-20px); }
-    100% { -webkit-transform: translateX(20px); z-index: 200; }
+    0% { -webkit-transform: translateX(40px); }  /* Increased value to create a larger gap */
+    50% { -webkit-transform: translateX(-40px); }
+    100% { -webkit-transform: translateX(40px); z-index: 200; }
 }
 
 @-moz-keyframes kanan {
-    0% { -moz-transform: translateX(20px); }
-    50% { -moz-transform: translateX(-20px); }
-    100% { -moz-transform: translateX(20px); z-index: 200; }
+    0% { -moz-transform: translateX(40px); }
+    50% { -moz-transform: translateX(-40px); }
+    100% { -moz-transform: translateX(40px); z-index: 200; }
 }
 
 @-o-keyframes kanan {
-    0% { -o-transform: translateX(20px); }
-    50% { -o-transform: translateX(-20px); }
-    100% { -o-transform: translateX(20px); z-index: 200; }
+    0% { -o-transform: translateX(40px); }
+    50% { -o-transform: translateX(-40px); }
+    100% { -o-transform: translateX(40px); z-index: 200; }
 }
 
 /* Keyframes for kiri */
 @-webkit-keyframes kiri {
-    0% { -webkit-transform: translateX(-20px); z-index: 200; }
-    50% { -webkit-transform: translateX(20px); }
-    100% { -webkit-transform: translateX(-20px); }
+    0% { -webkit-transform: translateX(-40px); z-index: 200; }  /* Increased value to create a larger gap */
+    50% { -webkit-transform: translateX(40px); }
+    100% { -webkit-transform: translateX(-40px); }
 }
 
 @-moz-keyframes kiri {
-    0% { -moz-transform: translateX(-20px); z-index: 200; }
-    50% { -moz-transform: translateX(20px); }
-    100% { -moz-transform: translateX(-20px); }
+    0% { -moz-transform: translateX(-40px); z-index: 200; }
+    50% { -moz-transform: translateX(40px); }
+    100% { -moz-transform: translateX(-40px); }
 }
 
 @-o-keyframes kiri {
-    0% { -o-transform: translateX(-20px); z-index: 200; }
-    50% { -o-transform: translateX(20px); }
-    100% { -o-transform: translateX(-20px); }
+    0% { -o-transform: translateX(-40px); z-index: 200; }
+    50% { -o-transform: translateX(40px); }
+    100% { -o-transform: translateX(-40px); }
 }
