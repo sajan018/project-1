@@ -1,6 +1,13 @@
 var loader = document.getElementById("preLoader");
 window.addEventListener("load" , function(){
     loader.style.display = "none"
+    if (isMobile.any()) {
+        message.style.display = 'block';
+        setTimeout(() => {
+            hideLeftAndRightArrows();
+            message.style.display = 'none';
+        }, 3000);
+    } 
 })
 
 
@@ -129,13 +136,6 @@ function setBackdropColor(imageElement) {
     document.body.style.backgroundColor = `rgb(${color[0]}, ${color[1]}, ${color[2]})`;
 }
 
-if (isMobile.any()) {
-    message.style.display = 'block';
-    setTimeout(() => {
-        hideLeftAndRightArrows();
-        message.style.display = 'none';
-    }, 3000);
-}
 
 
 function hideLeftAndRightArrows() {
