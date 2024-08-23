@@ -1,4 +1,4 @@
-var loader = document.getElementById("preLoader");
+var loader = document.getElementById("prLoader");
 window.addEventListener("load" , function(){
     loader.style.display = "none"
     if (isMobile.any()) {
