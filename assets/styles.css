@@ -142,8 +142,7 @@ span.right-arrow img{
 
 
 #preLoader{
-    /* background: #000 url(images/preLoader.gif) no-repeat center center; */
-    background: black;
+    background: #000 url(images/load.gif) no-repeat center center;
     color: wheat;
     font-size: larger;
     display: flex;
